@@ -4,7 +4,7 @@ This repository contains all of my code and notes from the Optimization class (I
 
 ## Table of Contents
 
-* **[Mini Project](./Mini-Project)**: The project I used for the mid-term exam.
+* **[Mini Project](<./Mini Project - CBUS>)**: The project I used for the mid-term exam.
 * **[Side Projects](./Side-Projects)**: Various problems introduced during the course that I tried to solve.
 * **[Slides](./Slides)**: A collection of lecture slides gathered from multiple sources, each equivalent to a different lecturer.
 * **[References](./References)**: Books, notes, and other materials that I found useful while learning this subject.
