@@ -1,7 +1,7 @@
 # IT3052E - Optimization (2025.2)
 
-This repository contains all of my code and notes from the Optimization class (IT3052E). I took this course in the 2025.2 semester, lectured by Mr. Bui Quoc Trung.
-Special thanks to [@wsod1um](https://github.com/wsod1um), [@ShimotsukiMerin](https://github.com/ShimotsukiMerin) and Hoang Anh for helping me in this final projects (Their credits have been noted into the reports and slides).
+This repository contains all of my code, notes, lectures from the Optimization class (IT3052E). I took this course in the 2025.2 semester, lectured by Mr. Bui Quoc Trung.
+Special thanks to [@wsod1um](https://github.com/wsod1um), [@ShimotsukiMerin](https://github.com/ShimotsukiMerin) and Hoang Anh for helping me in this final project (Their detailed credits have been noted into the reports and slides).
 
 ## Table of Contents
 
@@ -9,3 +9,11 @@ Special thanks to [@wsod1um](https://github.com/wsod1um), [@ShimotsukiMerin](htt
 * **[Side Projects](./Side-Projects)**: Various problems introduced during the course that I tried to solve.
 * **[Slides](./Slides)**: A collection of lecture slides gathered from multiple sources, each equivalent to a different lecturer.
 * **[References](./References)**: Books, notes, and other materials that I found useful while learning this subject.
+
+## Review
+- Generally, this course might not be highly practical for students in my specific major or those in the IT-E10 program. It primarily focuses on optimization algorithms, which are predominantly applied to logistics, business operations, and similar domains. Students intending to specialize deeply in Machine Learning and this specialization or those pursuing advanced research on given fields are the ones who will likely find this course most beneficial.
+- Mr. Trung is quite laid-back; he doesn't take attendance or strictly monitor your in-class focus. The base of your midterm grade is primarily determined by your performance in the mini-project presentations. Groups are formed randomly based on the class roster, but you have the freedom to choose your own topic. Keep in mind that you only have 15-20 minutes to present, so make sure your slides concisely summarize the core ideas and highlight the most critical features of your project. Additionally, make an effort to raise your hand and actively participate in class. He highly values this, and such engagement serves as a direct basis for earning bonus points toward your overall midterm grade. A word of caution: avoid relying heavily on AI-generated content, as he does not appreciate it and it will negatively impact your evaluation.
+- The final exam consists of two parts, each accounting for 50% of the total score:
+  - Part 1 (Theory Quiz): A multiple-choice quiz of about 22 questions. It focuses heavily on the Simplex method (e.g., understanding the components of a Simplex Tableau and calculating the next iteration). It also tests your knowledge of specific algorithms, such as Gomory's cut in the Constraint Satisfaction Problem (CSP) section, determining the next state in Greedy Hill Climbing, as well as the general properties and applications of these algorithms.
+  - Part 2 (Coding Test): A practical coding test featuring three problems with difficulty levels scaled as Medium, Medium, and Hard, worth 5, 4, and 1 point(s) respectively. For the first two problems, you can typically use the Google OR-Tools library combined with fundamental knowledge of exact methods like Linear Programming (LP), Integer Linear Programming (ILP), and CSP. The third problem usually involves heuristic algorithms, though aiming for a 9/10 overall is already an excellent goal.
+  - During my semester, we were allowed to bring a single A4 cheat sheet into the exam room. I highly recommend using this sheet to meticulously note down the core mathematical principles of the algorithms to assist you with the quiz portion.
