@@ -19,4 +19,4 @@ Special thanks to [@wsod1um](https://github.com/wsod1um), [@ShimotsukiMerin](htt
   - Part 2 (Coding Test): A practical coding test featuring three problems with difficulty levels scaled as Medium, Medium, and Hard, worth 5, 4, and 1 point(s) respectively. For the first two problems, you can typically use the Google OR-Tools library combined with fundamental knowledge of exact methods like Linear Programming (LP), Integer Linear Programming (ILP), and CSP. The third problem usually involves Heuristic algorithms, though aiming for a 9/10 overall is already an excellent goal.
   - During my semester, we were allowed to bring a single A4 cheat sheet into the exam room. I highly recommend using this sheet to meticulously note down the core mathematical principles of the algorithms to assist you with the quiz portion.
 
-**Feel free to contact me if you have any questions about this course. And don't forget to give me a star if you find this repo useful!!!**
+**Feel free to contact me if you have any questions about this course. And don't forget to give this repo a star ⭐ if you find it useful!**
