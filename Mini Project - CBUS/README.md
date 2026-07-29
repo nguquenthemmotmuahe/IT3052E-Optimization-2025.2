@@ -22,18 +22,20 @@ This project evaluates four optimization paradigms to solve the **Capacitated Bu
 ## 2. Repository Structure
 ```text
 .
-├── BranchAndBound/
+├── Branch and Bound/
 │   └── branch_and_bound.py      # Method 1: Tree-search with LB pruning
-├── ILP/
-│   └── ilp_cbus.py              # Method 2: MILP formulation via SCIP
-├── CP_SAT/
-│   └── CBUS.py                  # Method 3: CP formulation via OR-Tools
-├── Heuristics_Metaheuristics/
-│   ├── Greedy.py                # Method 4.0: Greedy initialization
-│   ├── LS_Swap.py               # Method 4.1: Local Search (Pairwise swap)
-│   ├── LS_RandomWalk.py         # Method 4.2: Local Search (Stochastic exploration)
+├── Integer Linear Programming/
+│   └── cbus - ilp.py            # Method 2: MILP formulation via SCIP
+├── Constraint Programming/
+│   └── csp.py                   # Method 3: CP formulation via OR-Tools
+├── Heuristic/
+│   ├── greedy.py                # Method 4.0: Greedy initialization
+│   ├── ls_swap.py               # Method 4.1: Local Search (Pairwise swap)
+│   ├── ls_random walk.py        # Method 4.2: Local Search (Stochastic exploration)
+├── Metaheuristic/
 │   └── TabuSearch.py            # Method 4.3: Memory-guided Tabu Search
-├── Slides.pdf / Report.pdf      # Presentation slide deck and technical report
+├── CBUS_Slides.pdf              # Presentation slides
+├── CBUS_Report.pdf              # Technical report
 └── README.md                    # Primary project documentation
 
 ```
@@ -138,9 +140,10 @@ ILP relies on continuous linear relaxations that frequently degrade in strength 
 * **Course:** Fundamental Optimization — Hanoi University of Science and Technology (HUST)
 * **Department:** School of Information and Communication Technology (SOICT) / Cyber Security
 * **Authors:**
-* Student Name 1 - Student ID 1
-* Student Name 2 - Student ID 2
-* Student Name 3 - Student ID 3
+* Le Tri Cuong - 202516646 - Leader, contribute the ILP solution, write the small benchmark test
+* Nguyen Vu Hoang Anh - 202516641 - Contribute the mathematical model, the CSP solution
+* Nguyen Hien Minh - 202516670 - contribute the Branch and bound solution
+* Dinh Khanh Nam - 202516672 -  contribute all of the Heuristic and Metaheuristic solutions
 
 
 
